@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600&display=swap');
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #1c1c1c;
+}
+
+header {
+  background: #1f2a3c;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header img {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  color: #0a0a23;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.services ul li::before {
+  content: "✔️ ";
+  color: #daaa00;
+}
+
+.highlight {
+  color: #daaa00;
+  font-weight: 600;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact {
+  background-color: #0a0a23;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (hover: hover) {
+  .contact a:hover {
+    text-decoration: underline;
+  }
+}
